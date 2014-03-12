@@ -7,7 +7,7 @@ A patchwork style grid layout for UICollectionView. It lays out cells in patch s
 
 Usage
 -----
-To use PATchworkLayout, first add AssetsLibrary to your Build Phases. Then simply set the collectionViewLayout property of your collection view to an instance of PATchworkLayout.
+To use PATchworkLayout, simply set the collectionViewLayout property of your collection view to an instance of PATchworkLayout.
 
 ```objectivec
 PATchworkLayout *layout = [PATchworkLayout alloc] init];
@@ -20,6 +20,8 @@ collectionView.collectionViewLayout = layout;
 ```
 
 Run the PhotoFun project in the examples folder to see a demo of PATchworkLayout.
+
+Documentation is provided XCode style in the header file.
 
 Installation
 -----

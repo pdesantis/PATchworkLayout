@@ -32,7 +32,7 @@ static NSString *const CellReuseIdentifier = @"PhotoCell";
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 
-    PATchworkLayout *layout = [[PATchworkLayout alloc] init];
+    PATchworkLayout *layout = (PATchworkLayout *)self.collectionView.collectionViewLayout;
     layout.maxSpan = 2;
     layout.numberOfColumns = 4;
     layout.baseItemSize = CGSizeMake(75.0f, 75.0f);
